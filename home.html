@@ -1,1 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Choose Language - Car Game Instructions</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #001f3f; /* Dark blue */
+      color: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .lang-button {
+      background-color: #0074D9; /* Bright blue */
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      text-decoration: none;
+    }
+
+    .lang-button:hover {
+      background-color: #005fa3;
+    }
+
+    @media (max-width: 600px) {
+      .lang-button {
+        width: 100%;
+        padding: 15px;
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Choose Language</h1>
+  <div class="button-container">
+    <a class="lang-button" href="https://aps-games.github.io/CarGameInstructions/Instructions/sinhala.html">සිංහල</a>
+    <a class="lang-button" href="https://aps-games.github.io/CarGameInstructions/Instructions/english.html">English</a>
+  </div>
+</body>
+</html>
 
